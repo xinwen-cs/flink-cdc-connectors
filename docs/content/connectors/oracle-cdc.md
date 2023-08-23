@@ -210,7 +210,7 @@ Flink SQL> CREATE TABLE products (
      'username' = 'flinkuser',
      'password' = 'flinkpw',
      'database-name' = 'XE',
-     'schema-name' = 'inventory',
+     'schema-name' = 'flinkuser',
      'table-name' = 'products');
   
 -- read snapshot and redo logs from products table
